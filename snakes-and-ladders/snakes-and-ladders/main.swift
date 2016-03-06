@@ -47,6 +47,15 @@ repeat {
                     
                     // Move the player
                     position += sumOfDice
+                    
+                    // Check for a snake
+                    if position == 54 {
+                        position = 19
+                    } else if position == 90 {
+                        position = 48
+                    } else if position == 99 {
+                        position = 77
+                    }
     
                 }
             }
