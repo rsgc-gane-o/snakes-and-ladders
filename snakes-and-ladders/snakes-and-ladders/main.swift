@@ -56,6 +56,15 @@ repeat {
                     } else if position == 99 {
                         position = 77
                     }
+                    
+                    // Check for a ladder
+                    if position == 9 {
+                        position = 34
+                    } else if position == 40 {
+                        position = 64
+                    } else if position == 67 {
+                        position = 86
+                    }
     
                 }
             }
