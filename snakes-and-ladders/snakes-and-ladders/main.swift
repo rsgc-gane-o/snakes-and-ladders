@@ -77,9 +77,9 @@ repeat {
 } while position != 100 && sumOfDice != 0
 
 // Say the user either won, or quit
-print("You are now on square \(position).", terminator: "")
 if sumOfDice == 0 {
-    print(" You Quit!")
+    print("You Quit!")
 } else {
+    print("You are now on square \(position).", terminator: "")
     print(" You Win!")
 }
